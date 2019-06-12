@@ -57,8 +57,8 @@
   <project path="device/hardkernel/proprietary" name="android_device_hardkernel_proprietary" remote="codewalkerster" />
 
   <!-- u-boot and kernel -->
-  <project path="bootloader/uboot" name="u-boot" remote="hardkernel" revision="refs/heads/odroidn2-v2015.01" />
-  <project path="common" name="linux" remote="hardkernel" revision="refs/heads/odroidn2-4.9.y-android" />
+  <project path="bootloader/uboot" name="u-boot" remote="hardkernel" revision="odroidn2-v2015.01" />
+  <project path="common" name="linux" remote="hardkernel" revision="odroidn2-4.9.y-android" />
 
   <!-- Hardware settings -->
   <project name="android_hardware_amlogic_LibAudio" path="hardware/amlogic/LibAudio" remote="codewalkerster" />
