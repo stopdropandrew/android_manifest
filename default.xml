@@ -20,6 +20,9 @@
            sync-c="true"
            sync-j="8" />
 
+  <!-- projects added/changed by secuflag -->
+  <project path="device/hardkernel/odroidn2" name="android_device_hardkernel_odroidn2" remote="odroid-n2" />
+  
   <!-- projects added/changed by codewalkerster -->
   <project path="build/make" name="android_build" groups="pdk" remote="codewalkerster" >
     <copyfile dest="Makefile" src="core/root.mk"/>
@@ -52,7 +55,6 @@
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" groups="pdk-fs" remote="codewalkerster" />
 
   <!-- device tree -->
-  <project path="device/hardkernel/odroidn2" name="android_device_hardkernel_odroidn2" remote="codewalkerster" />
   <project path="device/hardkernel/common" name="android_device_hardkernel_common" remote="codewalkerster" />
   <project path="device/hardkernel/proprietary" name="android_device_hardkernel_proprietary" remote="codewalkerster" />
 
