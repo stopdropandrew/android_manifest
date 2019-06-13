@@ -124,6 +124,11 @@
 
   <!-- Widevine DRM -->
   <project path="vendor/widevine" name="android_vendor_widevine" remote="codewalkerster" />
+  
+  <!-- Linaro toolchains -->
+  <project path="vendor/linaro/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" name="gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="master" remote="odroid-n2" />
+  <project path="vendor/linaro/gcc-linaro-arm-none-eabi-4.8-2014.04_linux" name="gcc-linaro-arm-none-eabi-4.8-2014.04_linux" revision="master" remote="odroid-n2" />
+  <project path="vendor/linaro/gcc-linaro-aarch64-none-elf-4.9-2014.09_linux" name="gcc-linaro-aarch64-none-elf-4.9-2014.09_linux" revision="master" remote="odroid-n2" />
 
   <!-- Unchanged AOSP projects -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
