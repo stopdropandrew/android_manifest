@@ -21,7 +21,7 @@
            sync-j="8" />
 
   <!-- projects added/changed by secuflag -->
-  <project path="device/hardkernel/odroidn2" name="android_device_hardkernel_odroidn2" remote="odroid-n2" />
+  <project path="device/hardkernel/odroidn2" name="android_device_hardkernel_odroidn2" revision="pie" remote="odroid-n2" />
   
   <!-- projects added/changed by codewalkerster -->
   <project path="build/make" name="android_build" groups="pdk" remote="codewalkerster" >
