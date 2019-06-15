@@ -15,6 +15,12 @@
   <remote  name="odroid-n2"
            revision="pie"
            fetch="https://github.com/odroid-n2/" />
+  
+  <remote  name="opengapps-gh"
+           fetch="https://github.com/opengapps/" />
+  
+  <remote  name="opengapps-gl"
+           fetch="https://gitlab.opengapps.org/opengapps/" />
 
   <default revision="refs/tags/android-9.0.0_r36"
            remote="aosp"
@@ -135,6 +141,14 @@
   <project path="vendor/linaro/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" name="gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="master" remote="odroid-n2" />
   <project path="vendor/linaro/gcc-linaro-arm-none-eabi-4.8-2014.04_linux" name="gcc-linaro-arm-none-eabi-4.8-2014.04_linux" revision="master" remote="odroid-n2" />
   <project path="vendor/linaro/gcc-linaro-aarch64-none-elf-4.9-2014.09_linux" name="gcc-linaro-aarch64-none-elf-4.9-2014.09_linux" revision="master" remote="odroid-n2" />
+
+  <!-- OpenGapps -->
+  <project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps-gh" />
+  <project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps-gl" />
+  <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps-gl" />
+  <project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps-gl" />
+  <project path="vendor/opengapps/sources/x86" name="x86" clone-depth="1" revision="master" remote="opengapps-gl" />
+  <project path="vendor/opengapps/sources/x86_64" name="x86_64" clone-depth="1" revision="master" remote="opengapps-gl" />
 
   <!-- Unchanged AOSP projects -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
