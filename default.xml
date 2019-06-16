@@ -22,7 +22,7 @@
   <remote  name="opengapps-gl"
            fetch="https://gitlab.opengapps.org/opengapps/" />
 
-  <default revision="refs/tags/android-9.0.0_r36"
+  <default revision="refs/tags/android-9.0.0_r40"
            remote="aosp"
            sync-c="true"
            sync-j="8" />
