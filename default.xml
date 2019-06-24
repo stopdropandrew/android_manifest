@@ -12,6 +12,9 @@
   <remote  name="hardkernel"
            fetch="https://github.com/hardkernel/" />
 
+  <remote  name="lineage"
+           fetch="https://github.com/LineageOS/" />
+  
   <remote  name="odroid-n2"
            revision="pie"
            fetch="https://github.com/odroid-n2/" />
@@ -138,6 +141,9 @@
 
   <!-- Widevine DRM -->
   <project path="vendor/widevine" name="android_vendor_widevine" remote="codewalkerster" />
+  
+  <!-- LineageOS packages -->
+  <project path="vendor/lineage/Eleven" name="android_packages_apps_Eleven" revision="lineage-16.0" remote="lineage" />
   
   <!-- Linaro toolchains -->
   <project path="vendor/linaro/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" name="gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="master" remote="odroid-n2" />
