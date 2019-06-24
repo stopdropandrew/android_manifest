@@ -56,7 +56,6 @@
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="codewalkerster" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="codewalkerster" />
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" groups="pdk-fs" remote="codewalkerster" />
-  <project path="packages/apps/Music" name="android_packages_apps_Music" groups="pdk-fs" remote="codewalkerster" />
   <project path="packages/apps/OdroidSettings" name="android_packages_apps_odroid_settings" remote="codewalkerster" />
   <project path="packages/apps/TV" name="android_packages_apps_TV" remote="codewalkerster" />
   <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="codewalkerster" />
