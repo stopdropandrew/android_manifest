@@ -49,6 +49,7 @@
   <project path="device/hardkernel/proprietary" name="android_device_hardkernel_proprietary" remote="odroid-n2" />
   <project path="external/chromium-webview" name="android_external_chromium-webview" revision="master" remote="odroid-n2" />
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="odroid-n2" />
+  <project path="packages/apps/OdroidSettings" name="android_packages_apps_OdroidSettings" revision="odroidn2-pie" remote="odroid-n2" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="odroid-n2" />
   <project path="vendor/secuflag" name="android_vendor_secuflag" remote="odroid-n2" />
   
@@ -56,7 +57,6 @@
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="codewalkerster" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="codewalkerster" />
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" groups="pdk-fs" remote="codewalkerster" />
-  <project path="packages/apps/OdroidSettings" name="android_packages_apps_odroid_settings" remote="codewalkerster" />
   <project path="packages/apps/TV" name="android_packages_apps_TV" remote="codewalkerster" />
   <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="codewalkerster" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="codewalkerster" />
