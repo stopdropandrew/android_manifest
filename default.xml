@@ -51,6 +51,7 @@
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="odroid-n2" />
   <project path="packages/apps/OdroidSettings" name="android_packages_apps_OdroidSettings" revision="odroidn2-pie" remote="odroid-n2" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="odroid-n2" />
+  <project path="vendor/amlogic/common/gpu" name="android_vendor_amlogic_common_gpu" remote="odroid-n2" />
   <project path="vendor/secuflag" name="android_vendor_secuflag" remote="odroid-n2" />
   
   <!-- projects added/changed by codewalkerster -->
@@ -121,7 +122,6 @@
   <project path="vendor/amlogic/common/frameworks" name="android_vendor_amlogic_common_frameworks" remote="codewalkerster" />
   <project path="vendor/amlogic/common/frameworks/av" name="android_vendor_amlogic_common_frameworks_av" remote="codewalkerster" />
   <project path="vendor/amlogic/common/frameworks/pppoe" name="android_vendor_amlogic_common_frameworks_pppoe" remote="codewalkerster" />
-  <project path="vendor/amlogic/common/gpu" name="android_vendor_amlogic_common_gpu" remote="codewalkerster" />
   <project path="vendor/amlogic/common/interfaces" name="android_vendor_amlogic_common_interfaces" remote="codewalkerster" />
   <project path="vendor/amlogic/common/hdcp" name="android_vendor_amlogic_common_hdcp" remote="codewalkerster" />
   <project path="vendor/amlogic/common/prebuilt" name="android_vendor_amlogic_common_prebuilt" remote="codewalkerster" />
