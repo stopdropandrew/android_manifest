@@ -31,7 +31,7 @@
            sync-j="8" />
 
   <!-- projects added/changed by secuflag -->
-  <project path="build/make" name="android_build_make" groups="pdk" remote="odroid-n2" >
+  <project path="build/make" name="android_build_make" remote="odroid-n2" >
     <copyfile dest="Makefile" src="core/root.mk"/>
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
     <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
@@ -40,8 +40,8 @@
     <linkfile dest="build/target" src="target"/>
     <linkfile dest="build/tools" src="tools"/>
   </project>
-  <project path="build/kati" name="android_build_kati" groups="pdk,tradefed" remote="odroid-n2" />
-  <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" remote="odroid-n2" >
+  <project path="build/kati" name="android_build_kati" remote="odroid-n2" />
+  <project path="build/soong" name="android_build_soong" remote="odroid-n2" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
@@ -49,9 +49,9 @@
   <project path="device/hardkernel/proprietary" name="android_device_hardkernel_proprietary" remote="odroid-n2" />
   <project path="external/chromium-webview" name="android_external_chromium-webview" revision="master" remote="odroid-n2" />
   <project path="external/sqlite" name="android_external_sqlite" remote="odroid-n2" />
-  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="odroid-n2" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="odroid-n2" />
   <project path="packages/apps/OdroidSettings" name="android_packages_apps_OdroidSettings" revision="odroidn2-pie" remote="odroid-n2" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="odroid-n2" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="odroid-n2" />
   <project path="vendor/amlogic/common/gpu" name="android_vendor_amlogic_common_gpu" remote="odroid-n2" />
   <project path="vendor/secuflag" name="android_vendor_secuflag" remote="odroid-n2" />
   
