@@ -52,6 +52,7 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="odroid-n2" />
   <project path="packages/apps/OdroidSettings" name="android_packages_apps_OdroidSettings" revision="odroidn2-pie" remote="odroid-n2" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="odroid-n2" />
+  <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="odroid-n2" />
   <project path="vendor/amlogic/common/gpu" name="android_vendor_amlogic_common_gpu" remote="odroid-n2" />
   <project path="vendor/secuflag" name="android_vendor_secuflag" remote="odroid-n2" />
   
@@ -585,7 +586,6 @@
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" groups="apps_stk,pdk-fs" />
   <project path="packages/apps/StorageManager" name="platform/packages/apps/StorageManager" groups="pdk-fs" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" groups="pdk-fs" />
-  <project path="packages/apps/Terminal" name="platform/packages/apps/Terminal" groups="pdk-fs" />
   <project path="packages/apps/Test/connectivity" name="platform/packages/apps/Test/connectivity" groups="pdk" />
   <project path="packages/apps/TimeZoneData" name="platform/packages/apps/TimeZoneData" groups="pdk" />
   <project path="packages/apps/TimeZoneUpdater" name="platform/packages/apps/TimeZoneUpdater" groups="pdk" />
