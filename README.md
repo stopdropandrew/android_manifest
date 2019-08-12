@@ -10,7 +10,7 @@ $ repo sync --no-tags --no-clone-bundle
 #### __Set up Linaro toolchains path:__
 
 ```
-$ export PATH=$PATH:/PATH/TO/mydroid/vendor/linaro/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin
+$ export PATH=$PATH:/PATH/TO/mydroid/vendor/linaro/gcc-linaro-7.4.1-2019.02-x86_64_aarch64-linux-gnu/bin
 $ export PATH=$PATH:/PATH/TO/mydroid/vendor/linaro/gcc-linaro-aarch64-none-elf-4.9-2014.09_linux/bin
 $ export PATH=$PATH:/PATH/TO/mydroid/vendor/linaro/gcc-linaro-arm-none-eabi-4.8-2014.04_linux/bin
 ```
