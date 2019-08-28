@@ -53,6 +53,7 @@
   <project path="packages/apps/OdroidSettings" name="android_packages_apps_OdroidSettings" revision="odroidn2-pie" remote="odroid-n2" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="odroid-n2" />
   <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="odroid-n2" />
+  <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" remote="odroid-n2" />
   <project path="vendor/amlogic/common/gpu" name="android_vendor_amlogic_common_gpu" remote="odroid-n2" />
   <project path="vendor/secuflag" name="android_vendor_secuflag" remote="odroid-n2" />
   
@@ -590,7 +591,6 @@
   <project path="packages/apps/TimeZoneData" name="platform/packages/apps/TimeZoneData" groups="pdk" />
   <project path="packages/apps/TimeZoneUpdater" name="platform/packages/apps/TimeZoneUpdater" groups="pdk" />
   <project path="packages/apps/Traceur" name="platform/packages/apps/Traceur" groups="pdk-fs" />
-  <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" groups="pdk-fs" />
   <project path="packages/apps/WallpaperPicker" name="platform/packages/apps/WallpaperPicker" groups="pdk-fs" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" groups="pdk-fs" />
