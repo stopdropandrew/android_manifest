@@ -45,6 +45,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="device/hardkernel/common" name="android_device_hardkernel_common" remote="odroid-n2" />
   <project path="device/hardkernel/odroidn2" name="android_device_hardkernel_odroidn2" remote="odroid-n2" />
   <project path="external/chromium-webview" name="android_external_chromium-webview" revision="master" remote="odroid-n2" />
   <project path="external/sqlite" name="android_external_sqlite" remote="odroid-n2" />
@@ -74,9 +75,6 @@
   <project path="system/media" name="android_system_media" groups="pdk" remote="codewalkerster" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="codewalkerster" />
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" groups="pdk-fs" remote="codewalkerster" />
-
-  <!-- device tree -->
-  <project path="device/hardkernel/common" name="android_device_hardkernel_common" remote="codewalkerster" />
 
   <!-- u-boot and kernel -->
   <project path="bootloader/uboot" name="u-boot" remote="hardkernel" revision="odroidn2-v2015.01" />
