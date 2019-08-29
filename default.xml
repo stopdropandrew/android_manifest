@@ -141,6 +141,11 @@
   <project path="vendor/amlogic/common/tv/frameworks" name="android_vendor_amlogic_common_tv_frameworks" remote="codewalkerster" />
   <project path="vendor/amlogic/common/tv/tvserver" name="android_vendor_amlogic_common_tv_tvserver" remote="codewalkerster" />
 
+  <!-- Android Things API/HAL -->
+  <project path="hardware/hardkernel/odroidThings" name="android_hardware_hardkernel_odroidThings" remote="codewalkerster" />
+  <project path="vendor/hardkernel/external/wiringPi" name="wiringPi" remote="hardkernel" revision="master" />
+  <project path="vendor/hardkernel/framework/things" name="android_vendor_hardkernel_things" remote="codewalkerster" />
+  
   <!-- Widevine DRM -->
   <project path="vendor/widevine" name="android_vendor_widevine" remote="codewalkerster" />
   
