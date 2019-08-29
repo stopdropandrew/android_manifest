@@ -46,7 +46,6 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="device/hardkernel/odroidn2" name="android_device_hardkernel_odroidn2" remote="odroid-n2" />
-  <project path="device/hardkernel/proprietary" name="android_device_hardkernel_proprietary" remote="odroid-n2" />
   <project path="external/chromium-webview" name="android_external_chromium-webview" revision="master" remote="odroid-n2" />
   <project path="external/sqlite" name="android_external_sqlite" remote="odroid-n2" />
   <project path="frameworks/base" name="android_frameworks_base" remote="odroid-n2" />
