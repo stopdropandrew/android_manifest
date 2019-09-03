@@ -55,6 +55,7 @@
   <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="odroid-n2" />
   <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" remote="odroid-n2" />
   <project path="vendor/amlogic/common/gpu" name="android_vendor_amlogic_common_gpu" remote="odroid-n2" />
+  <project path="vendor/google/atv" name="android_vendor_google_atv" remote="odroid-n2" />
   <project path="vendor/secuflag" name="android_vendor_secuflag" remote="odroid-n2" />
   
   <!-- projects added/changed by codewalkerster -->
