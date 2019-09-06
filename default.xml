@@ -45,6 +45,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="common" name="android_kernel_hardkernel_odroidn2" revision="odroidn2-pie" remote="odroid-n2" />
   <project path="device/google/atv" name="android_device_google_atv" remote="odroid-n2" />
   <project path="device/hardkernel/common" name="android_device_hardkernel_common" remote="odroid-n2" />
   <project path="device/hardkernel/odroidn2" name="android_device_hardkernel_odroidn2" remote="odroid-n2" />
@@ -79,9 +80,8 @@
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="codewalkerster" />
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" groups="pdk-fs" remote="codewalkerster" />
 
-  <!-- u-boot and kernel -->
+  <!-- u-boot -->
   <project path="bootloader/uboot" name="u-boot" remote="hardkernel" revision="odroidn2-v2015.01" />
-  <project path="common" name="linux" remote="hardkernel" revision="odroidn2-4.9.y-android" />
 
   <!-- Hardware settings -->
   <project name="android_hardware_amlogic_LibAudio" path="hardware/amlogic/LibAudio" remote="codewalkerster" />
