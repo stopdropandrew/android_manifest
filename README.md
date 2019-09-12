@@ -31,7 +31,7 @@ $ source build/envsetup.sh
 $ lunch odroidn2-[userdebug|user|eng]
 ```
 
-#### __For the Android TV variant:__
+#### __To build the Android TV variant:__
 
 ```
 $ export TARGET_BUILD_GOOGLE_ATV=true
