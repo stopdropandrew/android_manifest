@@ -61,6 +61,7 @@
   <project path="system/core" name="android_system_core" remote="odroid-n2" />
   <project path="vendor/amlogic/common/gpu" name="android_vendor_amlogic_common_gpu" revision="pie-arm64" remote="odroid-n2" />
   <project path="vendor/google/atv" name="android_vendor_google_atv" remote="odroid-n2" />
+  <project path="vendor/google/gapps" name="android_vendor_google_gapps" remote="odroid-n2" />
   <project path="vendor/secuflag" name="android_vendor_secuflag" remote="odroid-n2" />
   
   <!-- projects added/changed by codewalkerster -->
