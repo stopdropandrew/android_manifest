@@ -18,12 +18,6 @@
   <remote  name="odroid-n2"
            revision="pie"
            fetch="https://github.com/odroid-n2/" />
-  
-  <remote  name="opengapps-gh"
-           fetch="https://github.com/opengapps/" />
-  
-  <remote  name="opengapps-gl"
-           fetch="https://gitlab.opengapps.org/opengapps/" />
 
   <default revision="refs/tags/android-9.0.0_r46"
            remote="aosp"
