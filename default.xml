@@ -60,7 +60,7 @@
   <project path="vendor/amlogic/common/gpu" name="android_vendor_amlogic_common_gpu" revision="pie-arm64" remote="odroid-n2" />
   <project path="vendor/google/atv" name="android_vendor_google_atv" revision="pie-arm64" remote="gitlab" />
   <project path="vendor/google/gapps" name="android_vendor_google_gapps" revision="pie-arm64" remote="gitlab" />
-  <project path="vendor/secuflag" name="android_vendor_secuflag" revision="pie-arm64" remote="odroid-n2" />
+  <project path="vendor/secuflag" name="android_vendor_secuflag" remote="odroid-n2" />
   
   <!-- projects added/changed by codewalkerster -->
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="codewalkerster" />
