@@ -51,6 +51,7 @@
   <project path="external/chromium-webview" name="android_external_chromium-webview" revision="master" remote="odroid-n2" />
   <project path="external/sqlite" name="android_external_sqlite" remote="odroid-n2" />
   <project path="frameworks/base" name="android_frameworks_base" revision="pie-arm64" remote="odroid-n2" />
+  <project path="frameworks/native" name="android_frameworks_native" revision="pie-arm64" remote="odroid-n2" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="odroid-n2" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="odroid-n2" />
   <project path="packages/apps/OdroidSettings" name="android_packages_apps_OdroidSettings" revision="odroidn2-pie" remote="odroid-n2" />
@@ -73,7 +74,6 @@
   <project path="external/libvpx" name="android_external_libvpx" groups="pdk" remote="codewalkerster" />
   <project path="external/tinyalsa" name="android_external_tinyalsa" groups="pdk" revision="refs/heads/s922_9.0.0_64_master" remote="codewalkerster" />
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" revision="refs/heads/s922_9.0.0_64_master" remote="codewalkerster" />
-  <project path="frameworks/native" name="android_frameworks_native" groups="pdk" revision="refs/heads/s922_9.0.0_64_master" remote="codewalkerster" />
   <project path="frameworks/opt/net/ethernet" name="android_frameworks_opt_net_ethernet" groups="pdk-fs" remote="codewalkerster" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" groups="pdk" remote="codewalkerster" />
   <project path="system/bt" name="android_system_bt" groups="pdk" revision="refs/heads/s922_9.0.0_64_master" remote="codewalkerster" />
