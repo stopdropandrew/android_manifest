@@ -113,6 +113,7 @@
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="codewalkerster" />
   <project path="hardware/wifi/realtek/drivers/8192cu" name="android_hardware_wifi_realtek_drivers_8192cu" remote="codewalkerster" />
   <project path="hardware/wifi/realtek/drivers/rtl8812au" name="android_hardware_wifi_realtek_drivers_rtl8812au" remote="codewalkerster" />
+  <project path="hardware/wifi/realtek/drivers/rtl8821CU" name="android_hardware_wifi_realtek_drivers_rtl8821CU" remote="codewalkerster" />
 
   <!-- Amlogic vendor -->
   <project path="vendor/amlogic/common/external/dvb" name="android_vendor_amlogic_common_external_dvb" revision="refs/heads/s922_9.0.0_64_master" remote="codewalkerster" />
