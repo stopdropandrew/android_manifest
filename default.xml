@@ -62,7 +62,6 @@
   <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" remote="odroid-n2" />
   <project path="system/core" name="android_system_core" remote="odroid-n2" />
   <project path="system/gatekeeper" name="android_system_gatekeeper" remote="odroid-n2" />
-  <project path="vendor/amlogic/common/gpu" name="android_vendor_amlogic_common_gpu" revision="pie-arm64" remote="odroid-n2" />
   <project path="vendor/google/atv" name="android_vendor_google_atv" revision="pie-arm64" remote="gitlab" />
   <project path="vendor/google/gapps" name="android_vendor_google_gapps" revision="pie-arm64" remote="gitlab" />
   <project path="vendor/secuflag" name="android_vendor_secuflag" remote="odroid-n2" />
@@ -131,6 +130,7 @@
   <project path="vendor/amlogic/common/frameworks" name="android_vendor_amlogic_common_frameworks" revision="refs/heads/s922_9.0.0_64_master" remote="codewalkerster" />
   <project path="vendor/amlogic/common/frameworks/av" name="android_vendor_amlogic_common_frameworks_av" revision="refs/heads/s922_9.0.0_64_master" remote="codewalkerster" />
   <project path="vendor/amlogic/common/frameworks/pppoe" name="android_vendor_amlogic_common_frameworks_pppoe" remote="codewalkerster" />
+  <project path="vendor/amlogic/common/gpu" name="android_vendor_amlogic_common_gpu" revision="refs/heads/s922_9.0.0_64_master" remote="codewalkerster" />
   <project path="vendor/amlogic/common/interfaces" name="android_vendor_amlogic_common_interfaces" revision="refs/heads/s922_9.0.0_64_master" remote="codewalkerster" />
   <project path="vendor/amlogic/common/hdcp" name="android_vendor_amlogic_common_hdcp" revision="refs/heads/s922_9.0.0_64_master" remote="codewalkerster" />
   <project path="vendor/amlogic/common/prebuilt" name="android_vendor_amlogic_common_prebuilt" revision="refs/heads/s922_9.0.0_64_master" remote="codewalkerster" />
