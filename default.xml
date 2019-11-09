@@ -44,7 +44,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="cts" name="android_cts" remote="odroid-n2" />
-  <project path="common" name="android_kernel_hardkernel_odroidn2" revision="odroidn2-pie-arm64" remote="odroid-n2" />
+  <project path="common" name="android_kernel_hardkernel_odroidn2" revision="pie-arm64" remote="odroid-n2" />
   <project path="device/google/atv" name="android_device_google_atv" remote="odroid-n2" />
   <project path="device/hardkernel/common" name="android_device_hardkernel_common" revision="pie-arm64" remote="odroid-n2" />
   <project path="device/hardkernel/odroidn2" name="android_device_hardkernel_odroidn2" revision="pie-arm64" remote="odroid-n2" />
