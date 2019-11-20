@@ -3,7 +3,7 @@
 ```
 $ mkdir ~/mydroid
 $ cd ~/mydroid
-$ repo init -u https://github.com/odroid-n2/android_manifest.git -b pie
+$ repo init -u https://github.com/odroid-n2/android_manifest.git -b android-9.0
 $ repo sync --no-tags --no-clone-bundle
 ```
 
