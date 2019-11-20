@@ -16,11 +16,11 @@
            fetch="https://github.com/LineageOS/" />
   
   <remote  name="odroid-n2"
-           revision="pie"
+           revision="android-9.0"
            fetch="https://github.com/odroid-n2/" />
   
   <remote  name="gitlab"
-           revision="pie"
+           revision="android-9.0"
            fetch="https://gitlab.com/secuflag/" />
   
   <default revision="refs/tags/android-9.0.0_r46"
@@ -44,7 +44,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="cts" name="android_cts" remote="odroid-n2" />
-  <project path="common" name="android_kernel_hardkernel_odroidn2" revision="pie" remote="odroid-n2" />
+  <project path="common" name="android_kernel_hardkernel_odroidn2" remote="odroid-n2" />
   <project path="device/google/atv" name="android_device_google_atv" remote="odroid-n2" />
   <project path="device/hardkernel/common" name="android_device_hardkernel_common" remote="odroid-n2" />
   <project path="device/hardkernel/odroidn2" name="android_device_hardkernel_odroidn2" remote="odroid-n2" />
@@ -63,7 +63,7 @@
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="odroid-n2" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="odroid-n2" />
   <project path="packages/apps/ManagedProvisioning" name="android_packages_apps_ManagedProvisioning" remote="odroid-n2" />
-  <project path="packages/apps/OdroidSettings" name="android_packages_apps_OdroidSettings" revision="odroidn2-pie" remote="odroid-n2" />
+  <project path="packages/apps/OdroidSettings" name="android_packages_apps_OdroidSettings" remote="odroid-n2" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="odroid-n2" />
   <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="odroid-n2" />
   <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" remote="odroid-n2" />
