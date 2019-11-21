@@ -78,19 +78,20 @@
   <project path="vendor/secuflag" name="android_vendor_secuflag" remote="odroid-n2" />
   
   <!-- projects added/changed by codewalkerster -->
-  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="codewalkerster" />
-  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" groups="pdk-fs" remote="codewalkerster" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="codewalkerster" />
+  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="codewalkerster" />
   <project path="packages/apps/TV" name="android_packages_apps_TV" remote="codewalkerster" />
   <project path="external/tinyalsa" name="android_external_tinyalsa" remote="codewalkerster" />
-  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="codewalkerster" />
-  <project path="external/libyuv" name="android_external_libyuv" groups="pdk" remote="codewalkerster" />
-  <project path="external/libvpx" name="android_external_libvpx" groups="pdk" remote="codewalkerster" />
-  <project path="frameworks/opt/net/ethernet" name="android_frameworks_opt_net_ethernet" groups="pdk-fs" remote="codewalkerster" />
-  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" groups="pdk" remote="codewalkerster" />
-  <project path="system/media" name="android_system_media" groups="pdk" remote="codewalkerster" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="codewalkerster" />
+  <project path="external/libyuv" name="android_external_libyuv" remote="codewalkerster" />
+  <project path="external/libvpx" name="android_external_libvpx" remote="codewalkerster" />
+  <project path="frameworks/opt/net/ethernet" name="android_frameworks_opt_net_ethernet" remote="codewalkerster" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="codewalkerster" />
+  <project path="system/media" name="android_system_media" remote="codewalkerster" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="codewalkerster" />
-  <project path="system/vold" name="android_system_vold" groups="pdk" remote="codewalkerster" />
-  <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" groups="pdk-fs" remote="codewalkerster" />
+  <project path="system/vold" name="android_system_vold" remote="codewalkerster" />
+  <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="codewalkerster" />
+  <project path="vendor/widevine" name="android_vendor_widevine" remote="codewalkerster" />
 
   <!-- u-boot -->
   <project path="bootloader/uboot" name="u-boot" remote="hardkernel" revision="odroidn2-v2015.01" />
@@ -116,8 +117,8 @@
   <project path="hardware/hardkernel/libodroid-gps" name="android_hardware_hardkernel_libodroid-gps" remote="codewalkerster" />
   <project path="hardware/hardkernel/lights" name="android_hardware_hardkernel_lights" remote="codewalkerster" />
   <project path="hardware/hardkernel/wifi" name="android_hardware_hardkernel_wifi" remote="codewalkerster" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="codewalkerster" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="codewalkerster" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="codewalkerster" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="codewalkerster" />
   <project path="hardware/wifi/realtek/drivers/8192cu" name="android_hardware_wifi_realtek_drivers_8192cu" remote="codewalkerster" />
   <project path="hardware/wifi/realtek/drivers/rtl8812au" name="android_hardware_wifi_realtek_drivers_rtl8812au" remote="codewalkerster" />
   <project path="hardware/wifi/realtek/drivers/rtl8821CU" name="android_hardware_wifi_realtek_drivers_rtl8821CU" remote="codewalkerster" />
@@ -158,9 +159,6 @@
   <project path="hardware/hardkernel/odroidThings" name="android_hardware_hardkernel_odroidThings" remote="codewalkerster" />
   <project path="vendor/hardkernel/external/wiringPi" name="wiringPi" remote="hardkernel" revision="master" />
   <project path="vendor/hardkernel/framework/things" name="android_vendor_hardkernel_things" remote="codewalkerster" />
-  
-  <!-- Widevine DRM -->
-  <project path="vendor/widevine" name="android_vendor_widevine" remote="codewalkerster" />
   
   <!-- LineageOS packages -->
   <project path="vendor/lineage/Eleven" name="android_packages_apps_Eleven" revision="lineage-16.0" remote="lineage" />
