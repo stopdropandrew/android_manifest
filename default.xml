@@ -55,7 +55,7 @@
   <project path="common" name="android_kernel_hardkernel_odroidn2" revision="pie" remote="BenV" />
   <project path="device/google/atv" name="android_device_google_atv" remote="odroid-n2" />
   <project path="device/hardkernel/common" name="android_device_hardkernel_common" remote="odroid-n2" />
-  <project path="device/hardkernel/odroidn2" name="android_device_hardkernel_odroidn2" remote="odroid-n2" />
+  <project path="device/hardkernel/odroidn2" name="android_device_hardkernel_odroidn2" revision="pie" remote="BenV" />
   <project path="external/chromium-libpac" name="android_external_chromium-libpac" remote="odroid-n2" />
   <project path="external/chromium-webview" name="android_external_chromium-webview" revision="master" remote="odroid-n2" />
   <project path="external/libcups" name="android_external_libcups" remote="odroid-n2" />
