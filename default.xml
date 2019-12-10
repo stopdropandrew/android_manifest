@@ -36,6 +36,13 @@
            sync-c="true"
            sync-j="8" />
 
+  <remote name="FFmpeg"
+          fetch="https://github.com/FFmpeg"
+          revision="release/4.0" />
+  
+  <!-- projects added/changed by BenV -->
+  <project path="external/ffmpeg" name="FFmpeg" remote="FFmpeg" />
+
   <!-- projects added/changed by secuflag -->
   <project path="build/make" name="android_build_make" remote="odroid-n2" >
     <copyfile dest="Makefile" src="core/root.mk"/>
