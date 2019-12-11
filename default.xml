@@ -71,7 +71,7 @@
   <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" remote="odroid-n2" />
   <project path="external/sqlite" name="android_external_sqlite" remote="odroid-n2" />
   <project path="external/v8" name="android_external_v8" remote="odroid-n2" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="odroid-n2" />
+  <project path="frameworks/av" name="android_frameworks_av" revision="pie" remote="BenV" />
   <project path="frameworks/base" name="android_frameworks_base" remote="odroid-n2" />
   <project path="frameworks/native" name="android_frameworks_native" remote="odroid-n2" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="odroid-n2" />
